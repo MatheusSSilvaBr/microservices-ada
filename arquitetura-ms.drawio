@@ -1,0 +1,152 @@
+<mxfile host="app.diagrams.net" modified="2024-02-20T00:04:01.161Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="kjLdiELT3dK1pUdwFmes" version="23.1.2" type="device">
+  <diagram name="Página-1" id="rtHHBh2dSHCQIZMQtOYz">
+    <mxGraphModel dx="-987" dy="1512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YhLhK0dSV-Nu9ANyFKGa-210" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YhLhK0dSV-Nu9ANyFKGa-164" target="YhLhK0dSV-Nu9ANyFKGa-171" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YhLhK0dSV-Nu9ANyFKGa-164" value="Cliente" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1663" y="-347.5" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="YhLhK0dSV-Nu9ANyFKGa-165" value="Cloud&#xa;" style="swimlane;startSize=0;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="1763" y="-540" width="710" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="YhLhK0dSV-Nu9ANyFKGa-167" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="YhLhK0dSV-Nu9ANyFKGa-165" source="YhLhK0dSV-Nu9ANyFKGa-171" target="YhLhK0dSV-Nu9ANyFKGa-178" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YhLhK0dSV-Nu9ANyFKGa-168" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="YhLhK0dSV-Nu9ANyFKGa-165" source="YhLhK0dSV-Nu9ANyFKGa-171" target="YhLhK0dSV-Nu9ANyFKGa-181" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="255" />
+              <mxPoint x="170" y="255" />
+              <mxPoint x="170" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YhLhK0dSV-Nu9ANyFKGa-201" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="YhLhK0dSV-Nu9ANyFKGa-165" source="YhLhK0dSV-Nu9ANyFKGa-171" target="YhLhK0dSV-Nu9ANyFKGa-200" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="235" y="610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="255" />
+              <mxPoint x="170" y="255" />
+              <mxPoint x="170" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YhLhK0dSV-Nu9ANyFKGa-205" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="YhLhK0dSV-Nu9ANyFKGa-165" source="YhLhK0dSV-Nu9ANyFKGa-171" target="YhLhK0dSV-Nu9ANyFKGa-172" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YhLhK0dSV-Nu9ANyFKGa-171" value="API Gateway" style="rounded=1;whiteSpace=wrap;html=1;" parent="YhLhK0dSV-Nu9ANyFKGa-165" vertex="1">
+          <mxGeometry x="20" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YhLhK0dSV-Nu9ANyFKGa-206" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="YhLhK0dSV-Nu9ANyFKGa-165" source="YhLhK0dSV-Nu9ANyFKGa-172" target="YhLhK0dSV-Nu9ANyFKGa-174" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YhLhK0dSV-Nu9ANyFKGa-172" value="Auth Service" style="rounded=1;whiteSpace=wrap;html=1;" parent="YhLhK0dSV-Nu9ANyFKGa-165" vertex="1">
+          <mxGeometry x="20" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YhLhK0dSV-Nu9ANyFKGa-174" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="YhLhK0dSV-Nu9ANyFKGa-165" vertex="1">
+          <mxGeometry x="325" y="40" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YhLhK0dSV-Nu9ANyFKGa-177" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="YhLhK0dSV-Nu9ANyFKGa-165" source="YhLhK0dSV-Nu9ANyFKGa-178" target="YhLhK0dSV-Nu9ANyFKGa-179" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YhLhK0dSV-Nu9ANyFKGa-178" value="Address Service" style="rounded=1;whiteSpace=wrap;html=1;" parent="YhLhK0dSV-Nu9ANyFKGa-165" vertex="1">
+          <mxGeometry x="235" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YhLhK0dSV-Nu9ANyFKGa-179" value="Via CEP API" style="rounded=1;whiteSpace=wrap;html=1;" parent="YhLhK0dSV-Nu9ANyFKGa-165" vertex="1">
+          <mxGeometry x="398" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8sK2NLSzEbafw-ymQkjZ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YhLhK0dSV-Nu9ANyFKGa-165" source="YhLhK0dSV-Nu9ANyFKGa-181" target="YhLhK0dSV-Nu9ANyFKGa-196">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="397" y="300" />
+              <mxPoint x="397" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YhLhK0dSV-Nu9ANyFKGa-181" value="Register Service&lt;br&gt;(Pub)" style="rounded=1;whiteSpace=wrap;html=1;" parent="YhLhK0dSV-Nu9ANyFKGa-165" vertex="1">
+          <mxGeometry x="235" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YhLhK0dSV-Nu9ANyFKGa-182" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="YhLhK0dSV-Nu9ANyFKGa-165" source="YhLhK0dSV-Nu9ANyFKGa-181" target="YhLhK0dSV-Nu9ANyFKGa-174" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="300" />
+              <mxPoint x="540" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YhLhK0dSV-Nu9ANyFKGa-183" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="YhLhK0dSV-Nu9ANyFKGa-165" source="YhLhK0dSV-Nu9ANyFKGa-185" target="YhLhK0dSV-Nu9ANyFKGa-186" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YhLhK0dSV-Nu9ANyFKGa-184" value="API" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="YhLhK0dSV-Nu9ANyFKGa-183" vertex="1" connectable="0">
+          <mxGeometry x="-0.1327" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YhLhK0dSV-Nu9ANyFKGa-185" value="Notification Service&lt;br&gt;(Sub)" style="rounded=1;whiteSpace=wrap;html=1;" parent="YhLhK0dSV-Nu9ANyFKGa-165" vertex="1">
+          <mxGeometry x="560" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YhLhK0dSV-Nu9ANyFKGa-186" value="SMTP (Externo)" style="rounded=1;whiteSpace=wrap;html=1;" parent="YhLhK0dSV-Nu9ANyFKGa-165" vertex="1">
+          <mxGeometry x="560" y="95" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YhLhK0dSV-Nu9ANyFKGa-187" value="/session" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="YhLhK0dSV-Nu9ANyFKGa-165" vertex="1">
+          <mxGeometry x="80" y="130" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YhLhK0dSV-Nu9ANyFKGa-188" value="/address" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="YhLhK0dSV-Nu9ANyFKGa-165" vertex="1">
+          <mxGeometry x="160" y="180" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YhLhK0dSV-Nu9ANyFKGa-189" value="/register" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="YhLhK0dSV-Nu9ANyFKGa-165" vertex="1">
+          <mxGeometry x="160" y="270" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YhLhK0dSV-Nu9ANyFKGa-195" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="YhLhK0dSV-Nu9ANyFKGa-165" source="YhLhK0dSV-Nu9ANyFKGa-196" target="YhLhK0dSV-Nu9ANyFKGa-185" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YhLhK0dSV-Nu9ANyFKGa-196" value="Notification Queue (RabbitMQ)" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.queue;" parent="YhLhK0dSV-Nu9ANyFKGa-165" vertex="1">
+          <mxGeometry x="458" y="360" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8sK2NLSzEbafw-ymQkjZ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YhLhK0dSV-Nu9ANyFKGa-165" source="YhLhK0dSV-Nu9ANyFKGa-200" target="YhLhK0dSV-Nu9ANyFKGa-196">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="397" y="460" />
+              <mxPoint x="397" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YhLhK0dSV-Nu9ANyFKGa-200" value="Order Service&lt;br&gt;(Pub)" style="rounded=1;whiteSpace=wrap;html=1;" parent="YhLhK0dSV-Nu9ANyFKGa-165" vertex="1">
+          <mxGeometry x="235" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YhLhK0dSV-Nu9ANyFKGa-204" value="/auth" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="YhLhK0dSV-Nu9ANyFKGa-165" vertex="1">
+          <mxGeometry x="90" y="110" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YhLhK0dSV-Nu9ANyFKGa-207" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="YhLhK0dSV-Nu9ANyFKGa-165" source="YhLhK0dSV-Nu9ANyFKGa-178" target="YhLhK0dSV-Nu9ANyFKGa-174" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="295" y="160" />
+              <mxPoint x="355" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YhLhK0dSV-Nu9ANyFKGa-208" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=27.5;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="YhLhK0dSV-Nu9ANyFKGa-165" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="277" y="490.5" as="sourcePoint" />
+            <mxPoint x="385" y="68" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="277" y="500" />
+              <mxPoint x="700" y="500" />
+              <mxPoint x="700" y="68" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YhLhK0dSV-Nu9ANyFKGa-209" value="&lt;h1&gt;AdaFood&lt;/h1&gt;&lt;p&gt;O AdaFood é um aplicativo de delivery, nele é possível o usuário se cadastrar e realizar um pedido.&lt;/p&gt;&lt;p&gt;O time de desenvolvimento da turma 1041 será responsável por desenvolver alguns serviços, como:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;API Gateway: O API gateway será a interface de comunicação entre o cliente e os serviços. OBS: utilize a api feita em sala de aula como base, se faça as alterações necessárias, como, por exemplo, o fluxo de verificação de token, que deve ser transferido para o AUTH SERVICE;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Auth Service: Nele será necessário criar 2 rotas, uma para criação de sessão e outra para verificar a sessão;&lt;/li&gt;&lt;li&gt;Address Service: Nele será possível buscar um endereço e salvar na tabela(ou collection) de usuários, no respectivo usuário que estiver solicitando a busca;&lt;/li&gt;&lt;li&gt;Register Service: Serviço responsável por criar usuários no banco de dados. Ao criar um usuário é necessário enviar uma notificação para confirmação de email através do &quot;Notification Service&quot;. O usuário criado deve conter as seguintes informações:&lt;/li&gt;&lt;ul&gt;&lt;li&gt;id&lt;/li&gt;&lt;li&gt;Name&lt;/li&gt;&lt;li&gt;email&lt;/li&gt;&lt;li&gt;cpf&lt;/li&gt;&lt;li&gt;street&lt;/li&gt;&lt;li&gt;number&lt;/li&gt;&lt;li&gt;neighborhood&lt;/li&gt;&lt;li&gt;city&lt;/li&gt;&lt;li&gt;state&lt;/li&gt;&lt;li&gt;country&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Order Service: Nele será possível realizar um pedido e salvá-lo no banco de dados em uma tabela(ou collection) especifica, contendo:&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;id&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;user_id&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;description&lt;/li&gt;&lt;/ul&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;O Order service precisa notificar o usuário que fez o pedido através no Notification service, contendo as informações do pedido.&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Obs: A tabela de produtos não será responsabilidade do time 1041, sendo assim, não se&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;preocupem com ela, o campo &quot;description&quot; é suficiente;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;li&gt;Notification Service: Responsável por receber uma solicitação de notificação e encaminhar via email utizando um SMTP. OBS: A conexão com o SMTP não é obrigatória, mas o serviço de notificação precisa receber as solicitações via MENSSAGERIA (RabbitMQ)&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;OBS: UTILIZE O MONGODB COMO BANCO DE DADOS&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1663" y="-1150" width="807" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="8sK2NLSzEbafw-ymQkjZ-4" value="{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;notificationName&quot;: &quot;register-success&quot;&lt;br&gt;}" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2490" y="-370" width="330" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
