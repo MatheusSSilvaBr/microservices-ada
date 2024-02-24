@@ -13,12 +13,14 @@ class OrderController {
             if(!await schema.isValid(req.body)) {
                 throw { status: 400, message: 'Validation Fails'}
             }
+            //Get user email
+            const email = await OrderService.getUserEmail(req.body.user_id)
+            if(!email) {
+                throw { status: 400, message: 'User not found'}
+            }
 
             //Create Order
             const { id, description } = await OrderService.create(req.body)
-
-            //Get user email
-            const email = await OrderService.getUserEmail(req.body.user_id)
 
             //Dispatch notification
             sendNotification('order-success', email, description)
